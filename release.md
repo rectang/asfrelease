@@ -391,7 +391,7 @@ members only, so they should not be hosted or linked on pages intended for end
 users.  They should not be mirrored; only blessed GA releases should be
 mirrored.
 
-Projects typically use `http://people.apache.org/~${RM}/**` or the newer
+Projects should use the
 [`/dev` tree of the `dist` repository](https://dist.apache.org/repos/dist/dev)
 or the staging features of repository.apache.org
 to host release candidates posted for developer testing/voting (prior to being,
