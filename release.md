@@ -450,28 +450,7 @@ parallel, then it is acceptable to serve both 1.1.a and 1.2.x from `/dist`.
 
 ## How do I upload a release (original way)? ## {#upload-scp}
 
-Note that this method is being superseded by [svnpubsub](#upload-ci).
-
-By using SSH to upload it to your project's download directory, for example:
-
-    :::shell
-    laptop% scp ${tlp}-${product}-4.2.0.tar.gz{,.asc} ${availid}@people.apache.org:/www/www.apache.org/dist/$tlp/$product/
-
-Please also ensure that the newly-uploaded files are writable by the `$tlp` unix group; use
-
-    :::shell
-    availid@minotaur:~$ chmod -R g+w /www/www.apache.org/dist/$tlp/$product/
-
-or set `umask 002` in your login scripts otherwise.
-
-Once uploaded, the files will be copied to [the master mirror site](https://www.apache.org/dist/)
-within about an hour, after which the 24-hour waiting period for mirrors
-starts. 
-After 24 hours, most mirrors should have picked up the new files, so you can update the
-download page and remove any old releases from dist/TLP.
-
-The Windows equivalents to scp(1) are [WinSCP](http://www.winscp.net/) and
-PuTTY's siblings `pscp`/`psftp`.
+This method has been superseded by [svnpubsub](#upload-ci).
 
 ## How do I upload a release (current way)? {#upload-ci}
 
