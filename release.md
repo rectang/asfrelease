@@ -35,7 +35,8 @@ and the [design goals of this policy](mirrors).
 
 Generically, a release is anything that is published beyond the group
 that owns it.  For an Apache project, that means any publication outside the
-developer community, defined as the subscribers to the product dev list.
+developer community, defined as individuals actively participating in
+development or following the dev list.
 
 More narrowly, an official Apache release is one which has been endorsed as an
 "act of the Foundation" by a PMC.
