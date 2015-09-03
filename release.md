@@ -35,7 +35,8 @@ and the [design goals of this policy](mirrors).
 
 Generically, a release is anything that is published beyond the group
 that owns it.  For an Apache project, that means any publication outside the
-developer community, defined as the subscribers to the product dev list.
+development community, defined as individuals actively participating in
+development or following the dev list.
 
 More narrowly, an official Apache release is one which has been endorsed as an
 "act of the Foundation" by a PMC.
@@ -59,16 +60,16 @@ Release votes SHOULD remain open for at least 72 hours.
 ## Publication ## {#publication}
 
 Projects SHALL publish official releases and SHALL NOT publish unreleased
-materials outside the developer community.
+materials outside the development community.
 
 During the process of developing software and preparing a release, various
-packages are made available to the developer community for testing
-purposes. **Projects MUST NOT take any action that might
-encourage non-developers to download or use nightly builds, snapshots,
-release candidates, or any other similar package.** The only people who are
-supposed to know about such packages are the people following the dev list
-(or searching its archives) and thus aware of the conditions placed on the
-package.
+packages are made available to the development community for testing
+purposes. **Projects MUST direct outsiders towards official releases rather
+than raw source repositories, nightly builds, snapshots, release
+candidates, or any other similar packages.** The only people who are
+supposed to know about such developer resources are individuals actively
+participating in development or following the dev list and thus aware of the
+conditions placed on unreleased materials.
 
 ## Artifacts ## {#artifacts}
 
